@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/quanlypm">
+
+    <fragment
+        android:id="@+id/quanlypm"
+        android:name="com.poly.assm.fragment.quanlypm.phieumuonFragment"
+        android:label="@string/menu_pm"
+        tools:layout="@layout/fragment_qlypm" />
+
+    <fragment
+        android:id="@+id/quanlyls"
+        android:name="com.poly.assm.fragment.quanlyls.loaisachFragment"
+        android:label="@string/menu_ls"
+        tools:layout="@layout/fragment_qlyls" />
+
+    <fragment
+        android:id="@+id/quanlys"
+        android:name="com.poly.assm.fragment.quanlys.quanlysfragment"
+        android:label="@string/menu_s"
+        tools:layout="@layout/fragment_qlys" />
+    <fragment
+        android:id="@+id/logout"
+        android:name="com.poly.assm.fragment.nguoidung.dangxuatFragment"
+        android:label="@string/logout"
+        tools:layout="@layout/fragment_dangxuat" />
+    <fragment
+        android:id="@+id/doimk"
+        android:name="com.poly.assm.fragment.nguoidung.dmatkhauFragment"
+        android:label="@string/doimk"
+        tools:layout="@layout/fragment_matkhau" />
+    <fragment
+        android:id="@+id/quanlytv"
+        android:name="com.poly.assm.fragment.qlytv.thanhvienfrment"
+        android:label="@string/menu_tv"
+        tools:layout="@layout/activity_thanhvienfrment" />
+    <fragment
+        android:id="@+id/top10"
+        android:name="com.poly.assm.fragment.thongke.top10fragment"
+        android:label="@string/top10"
+        tools:layout="@layout/activity_top10fragment" />
+    <fragment
+        android:id="@+id/themuser"
+        android:name="com.poly.assm.fragment.nguoidung.themtaikhoan"
+        android:label="@string/themuser"
+        tools:layout="@layout/activity_themtaikhoan" />
+    <fragment
+        android:id="@+id/doanhthu"
+        android:name="com.poly.assm.fragment.thongke.doanhthufragment"
+        android:label="@string/doanhthu"
+        tools:layout="@layout/activity_doanhthufragment" />
+</navigation>

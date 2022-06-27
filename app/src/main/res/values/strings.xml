@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">assm</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">My Name is Thịnh</string>
+    <string name="nav_header_subtitle">Xin Chào!</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_pm">Quản lý phiếu mượn</string>
+    <string name="menu_ls">Quản lý loại sách</string>
+    <string name="menu_s">Quản lý sách</string>
+    <string name="menu_tv">Quản lý Thành viên</string>
+    <string name="top10">Top 10 sách mượn nhiều nhất</string>
+    <string name="doanhthu">Doanh thu </string>
+    <string name="themuser">Thêm người dùng</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="doimk">Đổi mật khẩu</string>
+</resources>

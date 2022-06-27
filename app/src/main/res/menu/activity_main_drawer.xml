@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/quanlypm"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_pm" />
+        <item
+            android:id="@+id/quanlyls"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_ls" />
+        <item
+            android:id="@+id/quanlys"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="@string/menu_s" />
+        <item
+            android:id="@+id/quanlytv"
+            android:icon="@drawable/ic_baseline_group_24"
+            android:title="@string/menu_tv" />
+        <item android:title="Thống kê">
+            <menu>
+                <item
+                    android:id="@+id/top10"
+                    android:icon="@drawable/ic_baseline_vertical_align_top_24"
+                    android:title="@string/top10" />
+                <item
+                    android:id="@+id/doanhthu"
+                    android:icon="@drawable/ic_baseline_attach_money_24"
+                    android:title="@string/doanhthu" />
+            </menu>
+        </item>
+        <item android:title="Người dùng">
+            <menu>
+                <item
+                    android:id="@+id/themuser"
+                    android:visible="false"
+                    android:icon="@drawable/ic_baseline_person_add_24"
+                    android:title="@string/themuser" />
+                <item
+                    android:id="@+id/doimk"
+                    android:icon="@drawable/ic_baseline_vpn_key_24"
+                    android:title="@string/doimk" />
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_baseline_exit_to_app_24"
+                    android:title="@string/logout" />
+            </menu>
+               </item>
+    </group>
+</menu>

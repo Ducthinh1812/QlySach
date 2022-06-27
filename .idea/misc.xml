@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/thinh/Documents/laptrinhandroidd/duanmau/thinhndph15569_duanmau/assm/app/src/main/res/layout/activity_main.xml" value="0.10925925925925926" />
+        <entry key="..\:/Users/thinh/Documents/laptrinhandroidd/duanmau/thinhndph15569_duanmau/assm/app/src/main/res/layout/activity_themtaikhoan.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/thinh/Documents/laptrinhandroidd/duanmau/thinhndph15569_duanmau/assm/app/src/main/res/layout/app_bar_main.xml" value="0.23550724637681159" />
+        <entry key="..\:/Users/thinh/Documents/laptrinhandroidd/duanmau/thinhndph15569_duanmau/assm/app/src/main/res/layout/content_main.xml" value="0.23550724637681159" />
+        <entry key="..\:/Users/thinh/Documents/laptrinhandroidd/duanmau/thinhndph15569_duanmau/assm/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thinh/Documents/laptrinhandroidd/duanmau/thinhndph15569_duanmau/assm/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2703125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
